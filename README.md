@@ -44,4 +44,4 @@ console.log('world');
 $ node test.js
 ```
 
-![output](https://github.com/mateogianolio/fprofile/blob/master/screenshot.png)
+<img title="test output" align="left" src="https://github.com/mateogianolio/fprofile/blob/master/screenshot.png">
