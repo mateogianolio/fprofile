@@ -10,7 +10,7 @@ $ npm install fprofile
 
 ### Usage
 
-[test.js](https://github.com/mateogianolio/fprofile/blob/master/test.js) contains a few examples:
+Look, [test.js](https://github.com/mateogianolio/fprofile/blob/master/test.js) contains a few examples:
 
 ```javascript
 var profile = require('./main.js');
@@ -40,8 +40,25 @@ console.log('hello');
 console.log('world');
 ```
 
+Running the code above outputs:
+
 ```bash
 $ node test.js
+factorial(5): 0.133ms
+factorial(10): 0.02ms
+factorial(100): 0.232ms
+Object.factorial(5)
+  @time 0.194ms
+  @type number
+  @return 120
+Object.obj()
+  @time 0.21ms
+  @type object
+  @return {"hello":"world"}
+hello
+Console.log("hello"): 0.375ms
+world
+Console.log("world"): 0.0329ms
 ```
 
-<img width="100%" height="auto" title="test output" align="left" src="https://github.com/mateogianolio/fprofile/blob/master/screenshot.png">
+Contribute if you want.
