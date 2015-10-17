@@ -1,13 +1,13 @@
 (function() {
   'use strict';
 
-  var time = require('./main.js');
+  var profile = require('./main.js');
 
   function factorial(n) {
     return n > 1 ? n * factorial(n - 1) : n;
   }
 
-  var timedFunction = time(factorial);
+  var timedFunction = profile(factorial);
   timedFunction(5);
   timedFunction(10);
   timedFunction(100);
@@ -19,11 +19,11 @@
     }
   };
 
-  time(testObject, 0, true);
+  profile(testObject, 0, true);
   testObject.factorial(5);
   testObject.obj();
 
-  time(console);
+  profile(console);
   console.log('hello');
   console.log('world');
 }());
