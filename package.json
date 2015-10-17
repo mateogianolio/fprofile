@@ -1,0 +1,27 @@
+{
+  "name": "fprofile",
+  "version": "0.1.0",
+  "description": "Simple logging / performance evaluation of functions.",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateogianolio/fprofile.git"
+  },
+  "keywords": [
+    "profiling",
+    "profile",
+    "logging",
+    "performance",
+    "evaluation",
+    "testing"
+  ],
+  "author": "Mateo Gianolio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mateogianolio/fprofile/issues"
+  },
+  "homepage": "https://github.com/mateogianolio/fprofile#readme"
+}
