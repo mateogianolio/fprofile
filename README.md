@@ -42,19 +42,6 @@ console.log('world');
 
 ```bash
 $ node test.js
-factorial(5): 0.112ms
-factorial(10): 0.0188ms
-factorial(100): 0.122ms
-Object.factorial(5)
-  @time 0.127ms
-  @type number
-  @return 120
-Object.obj()
-  @time 0.192ms
-  @type object
-  @return {"hello":"world"}
-hello
-Console.log("hello"): 0.395ms
-world
-Console.log("world"): 0.0341ms
 ```
+
+![output](https://github.com/mateogianolio/fprofile/blob/master/screenshot.png)
