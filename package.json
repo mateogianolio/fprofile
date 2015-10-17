@@ -1,6 +1,6 @@
 {
   "name": "fprofile",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple logging / performance evaluation of functions.",
   "main": "main.js",
   "scripts": {
