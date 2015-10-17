@@ -1,6 +1,10 @@
 # fprofile
 
-Simple logging / performance evaluation of functions.
+Simple javascript function profiling.
+
+The tool hooks functions (standalone or class methods) and evaluates their
+execution time and if verbose mode is toggled, also prints the return type and
+value.
 
 ### Install
 
@@ -9,6 +13,20 @@ $ npm install fprofile
 ```
 
 ### Usage
+
+```javascript
+var profile = require('fprofile');
+
+/**
+ * Adds profiling hooks to object's function(s)
+ * @param {Object/Function} object or function
+ * @param {Number} threshold, profiler will ignore execution times (in ms) below this value
+ * @param {Boolean} verbose mode
+ **/
+profile(object, threshold, verbose)
+```
+
+### Example
 
 Look, [test.js](https://github.com/mateogianolio/fprofile/blob/master/test.js) contains a few examples:
 
