@@ -1,7 +1,8 @@
 (function() {
   'use strict';
 
-  var profile = require('./main.js');
+  var profile = require('./main.js'),
+      crypto = require('crypto');
 
   function factorial(n) {
     return n > 1 ? n * factorial(n - 1) : n;

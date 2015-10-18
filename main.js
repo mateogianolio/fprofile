@@ -60,12 +60,14 @@
         continue;
 
       threshold = threshold || 0;
-      object[name] = attach(
-        func,
-        object.constructor.name + '.' + name,
-        threshold,
-        verbose
-      );
+      try {
+        object[name] = attach(
+          func,
+          object.constructor.name + '.' + name,
+          threshold,
+          verbose
+        );
+      } catch (error) {}
     }
 
     return object;

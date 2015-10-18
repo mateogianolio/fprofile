@@ -1,9 +1,9 @@
 # fprofile
 
-Simple javascript function profiling.
+A simple function profiler.
 
-The tool hooks functions (standalone or class methods) and evaluates their
-execution time and if verbose mode is toggled, also prints the return type and
+The tool hooks to functions (standalone or class methods) and evaluates their
+execution time and if verbose mode is toggled, also prints their return type and
 value.
 
 ### Install
